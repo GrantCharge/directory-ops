@@ -1,5 +1,4 @@
 // Check Lead + Draft (Pass on leads helper)
-// Code of the "Check Lead + Draft" node in the n8n Lead Router (Code node, run once for each item).
 // A port of the directory-ops "lead-routing" helper (Pass on leads) by Frey:
 //   skills/lead-routing/check_lead.py  -> the email / phone / date checks
 //   skills/lead-routing/REFERENCE.md   -> name, spam and business address checks
@@ -8,9 +7,9 @@
 
 // ---- Owner settings (helper rule 3: never invent these; fill them in once) ----
 const OWNER = {
-  first_name: '[NEEDED: your first name]',
-  postal_address: '[NEEDED: your postal address]',
-  price_per_lead: '[NEEDED: price per lead, e.g. $25]',
+  first_name: 'Grant',
+  postal_address: '12 Example St, Morisset',
+  price_per_lead: '$25',
 };
 
 // ---- The 11 sites. site_source in the payload must match a key here. ----
